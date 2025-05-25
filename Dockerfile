@@ -8,7 +8,7 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 # Copy your HTML file to the default web root
-COPY index.html /var/www/html/index.html
+COPY sahil.html /var/www/html/index.html
 
 # Expose port 80 for web traffic
 EXPOSE 80
